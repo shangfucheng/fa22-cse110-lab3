@@ -46,14 +46,16 @@ body:
         - Chrome
         - Safari
         - Microsoft Edge
-  - type: textaera
+  - type: textarea
     id: background
     attributes:
        label: What happened?
       description: Also tell us, what did you expect to happen?
       placeholder: Tell us what you see!
       value: "Background error!"
-- type: textarea
+    validations:
+      required: true
+  - type: textarea
     id: display
     attributes:
        label: What happened?
