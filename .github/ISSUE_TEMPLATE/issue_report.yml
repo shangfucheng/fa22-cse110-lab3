@@ -49,7 +49,7 @@ body:
   - type: textarea
     id: background
     attributes:
-       label: What happened?
+      label: What happened?
       description: Also tell us, what did you expect to happen?
       placeholder: Tell us what you see!
       value: "Background error!"
