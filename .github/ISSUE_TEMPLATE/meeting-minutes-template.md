@@ -7,12 +7,12 @@ assignees: shangfucheng
 
 ---
 
-name: Bug Report
-description: File a bug report
-title: "[Bug]: "
+name: Issue Report
+description: File a Issue report
+title: "[Issue]: "
 labels: ["bug", "triage"]
 assignees:
-  - octocat
+  - Fucheng Shang
 body:
   - type: markdown
     attributes:
@@ -23,30 +23,29 @@ body:
     attributes:
       label: Contact Details
       description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
+      placeholder: fushang@ucsd.edu
     validations:
       required: false
   - type: textarea
-    id: what-happened
+    id: CSS Syntax Issue
     attributes:
       label: What happened?
       description: Also tell us, what did you expect to happen?
       placeholder: Tell us what you see!
-      value: "A bug happened!"
+      value: "Syntax error!"
     validations:
       required: true
-  - type: dropdown
-    id: version
+  - type: textarea
+    id: color
     attributes:
-      label: Version
-      description: What version of our software are you running?
-      options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
+      label: Color Issue
+      description: What is wrong with color?
+      placeholder: Tell us what you see!
+      value: "Color error!"
     validations:
       required: true
-  - type: dropdown
-    id: browsers
+  - type: textarea
+    id: browser
     attributes:
       label: What browsers are you seeing the problem on?
       multiple: true
@@ -56,11 +55,19 @@ body:
         - Safari
         - Microsoft Edge
   - type: textarea
-    id: logs
+    id: background
     attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
+       label: What happened?
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+      value: "Background error!"
+- type: textarea
+    id: display
+    attributes:
+       label: What happened?
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+      value: "Display error!"
   - type: checkboxes
     id: terms
     attributes:
