@@ -46,7 +46,7 @@ body:
         - Chrome
         - Safari
         - Microsoft Edge
-  - type: textarea
+  - type: textaera
     id: background
     attributes:
        label: What happened?
