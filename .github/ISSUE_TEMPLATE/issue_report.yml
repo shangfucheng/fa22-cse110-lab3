@@ -21,16 +21,16 @@ body:
   - type: textarea
     id: Syntax_Issue
     attributes:
-      label: What happened?
+      label: Syntax Error?
       description: Also tell us, what did you expect to happen?
       placeholder: Tell us what you see!
-      value: "Syntax error!"
+      
     validations:
       required: true
   - type: textarea
     id: color
     attributes:
-      label: Color Issue
+      label: Color Issue?
       description: What is wrong with color?
       placeholder: Tell us what you see!
       value: "Color error!"
@@ -49,16 +49,16 @@ body:
   - type: textarea
     id: background
     attributes:
-      label: What happened?
+      label: Issue with layout?
       description: Also tell us, what did you expect to happen?
       placeholder: Tell us what you see!
-      value: "Background error!"
+      
     validations:
       required: true
   - type: textarea
     id: display
     attributes:
-      label: What happened?
+      label: Selector Issue?
       description: Also tell us, what did you expect to happen?
       placeholder: Tell us what you see!
       value: "Display error!"
