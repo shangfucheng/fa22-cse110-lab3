@@ -7,7 +7,6 @@
     font-weight: normal;
     font-style:normal;
     font-stretch: semi-expanded;
-    margin:10%, 10%, 10%, 10%;
 }
 .mainbody{
     display: flex;
@@ -86,6 +85,10 @@ h2{
     border-radius: 20px;
 }
 
+#submit_label{
+    align-items: center;
+}
+
 .dropdown_list{
     background-color: aliceblue;
     padding:10%;
@@ -97,6 +100,7 @@ h2{
     margin-bottom: 0.2in;
     margin-left: 1cm;
     margin-right: 1cm;
+    padding-left: 25%;
 }
 
 .note_input{
