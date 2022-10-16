@@ -7,6 +7,7 @@
     font-weight: normal;
     font-style:normal;
     font-stretch: semi-expanded;
+    margin:10%, 10%, 10%, 10%;
 }
 .mainbody{
     display: flex;
